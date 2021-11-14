@@ -3,4 +3,19 @@
     p, h1, h2, h6 {
         color: white;
     }
+
+    button {
+        background-color: black;
+        color: black;
+        margin-left: 3%;
+        padding: 0% 5%;
+        border: 2px solid black;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+
+    &__text {
+        color: white;
+    }
 }
+

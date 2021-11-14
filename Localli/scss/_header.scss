@@ -84,13 +84,13 @@
 /* Hover */
 .checkbox-ios input[type="checkbox"]:not(:disabled) + .checkbox-ios-switch {
 	cursor: pointer;
-	border-color: rgba(0, 0, 0, .3);
+	border-color: rgb(255, 255, 255);
 }
  
 /* Disabled */
 .checkbox-ios input[type=checkbox]:disabled + .checkbox-ios-switch {
 	filter: grayscale(70%);
-	border-color: rgba(0, 0, 0, .1);
+	border-color: rgb(255, 255, 255);
 }
 .checkbox-ios input[type=checkbox]:disabled + .checkbox-ios-switch:before {
 	background: #eee;

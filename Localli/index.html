@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="white-theme">
+<body id="body" class="white-theme">
     <header class="header">
         <div class="header__logo">
             <svg class="logo" width="25" height="39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,15 +23,15 @@
         </div>
 
         <div class="header__button">
-            <button class="button"> <p>How it works</p> </button>
-            <button class="button"> <p>Pricing</p> </button>
-            <button class="button"> <p>Request Beta</p> </button>
+            <button id="btn" class="button"> <p>How it works</p> </button>
+            <button id="btn" class="button"> <p>Pricing</p> </button>
+            <button id="btn" class="button"> <p>Request Beta</p> </button>
         </div>
 
         <div class="switch-theme">
-            <label class="checkbox-ios">
-                <input type="checkbox">
-                <span class="checkbox-ios-switch"></span>
+            <label class="checkbox-ios" id="switch">
+                <input type="checkbox" onclick="switchTheme()">
+                <span class="checkbox-ios-switch" ></span>
             </label>
              
         </div>
@@ -52,8 +52,8 @@
             </p>
             
             <div class="center">
-                <button class="button"> <p>Request Beta</p> </button>
-                <button class="button"> <p>How it works</p> </button>
+                <button id="btn" class="button"> <p>Request Beta</p> </button>
+                <button id="btn" class="button"> <p>How it works</p> </button>
             </div>
 
             <div class="introductionLocalli__content center">
@@ -172,7 +172,7 @@
                     from the tracking page in our beautiful dashboard.
                 </p>
                 <div class="block__btn">
-                    <button class=" button "> <p>Request Beta</p> </button>
+                    <button id="btn" class=" button "> <p>Request Beta</p> </button>
                 </div>
                 
 
@@ -211,7 +211,7 @@
                         as little as 2-hours. As we expand, so do you.
                     </p>
                     <div class="block__btn">
-                        <button class="button"> <p>Request Beta</p> </button> 
+                        <button id="btn" class="button"> <p>Request Beta</p> </button> 
                     </div>
                 </div>
             
@@ -224,6 +224,8 @@
     <footer>
 
     </footer>
+
+    <script src="./js/switch-theme.js"></script>
 
 </body>
 </html>

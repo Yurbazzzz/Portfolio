@@ -34,6 +34,19 @@ h2 {
 .black-theme p, .black-theme h1, .black-theme h2, .black-theme h6 {
   color: white;
 }
+.black-theme button {
+  background-color: black;
+  color: black;
+  margin-left: 3%;
+  padding: 0% 5%;
+  border: 2px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 25px;
+}
+.black-theme__text {
+  color: white;
+}
 
 .header {
   display: -webkit-box;
@@ -159,14 +172,14 @@ h2 {
 /* Hover */
 .checkbox-ios input[type=checkbox]:not(:disabled) + .checkbox-ios-switch {
   cursor: pointer;
-  border-color: rgba(0, 0, 0, 0.3);
+  border-color: white;
 }
 
 /* Disabled */
 .checkbox-ios input[type=checkbox]:disabled + .checkbox-ios-switch {
   -webkit-filter: grayscale(70%);
           filter: grayscale(70%);
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: white;
 }
 
 .checkbox-ios input[type=checkbox]:disabled + .checkbox-ios-switch:before {

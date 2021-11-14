@@ -1,0 +1,31 @@
+.block {
+    display: flex;
+    margin-top: 5%;
+
+    &__content {
+        width: 50%;
+    }
+
+    &__title {
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+        text-align: start;
+    }
+
+    &__subtitle {
+        width: 90%;
+        margin: 3% 10% 3%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__btn {
+        margin-left: 15%;
+    }
+
+    &__img {
+        width: 40%;
+        padding: 0% 5%;
+    }
+
+}

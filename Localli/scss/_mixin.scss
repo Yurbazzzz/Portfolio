@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto';
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #A6A6A6;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin button {
+    background-color: white;
+    color: black;
+    margin-left: 3%;
+    padding: 0% 5%;
+
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+@mixin hover {
+    background-color: black;
+    color: white;
+    margin-left: 3%;
+    padding: 0% 5%;
+
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+@mixin button-checked {
+    background-color: white;
+    color: black;
+
+    border: 2px solid black;
+}
+
+

@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    margin: 15% 10% 5%;
+    border-top: 2px solid  #E5E5E5;
+    padding-top: 5%;
+
+    &__logo {
+        display: flex;
+    }
+
+    &__logo-content {
+        width: 50%;
+
+    }
+
+    &__content {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20%;
+    }
+
+}

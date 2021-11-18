@@ -19,17 +19,26 @@
 } 
 
 .button {
-	@include button;
+	background-color: white;
+    color: black;
+    margin-left: 3%;
+    padding: 0% 5%;
+
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
 }
 
 .button:hover {
-	@include hover;
-}
+	background-color: black;
+    color: white;
+    margin-left: 3%;
+    padding: 0% 5%;
 
-.button:focus {
-    @include button-checked;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
 }
-
 
 .checkbox-ios {
     margin: 50%;

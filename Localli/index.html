@@ -24,8 +24,8 @@
 
         <div class="header__button">
             <button id="btn" class="button"> <p>How it works</p> </button>
-            <button id="btn" class="button"> <p>Pricing</p> </button>
-            <button id="btn" class="button"> <p>Request Beta</p> </button>
+            <button id="btn2" class="button"> <p>Pricing</p> </button>
+            <button id="btn3" class="button"> <p>Request Beta</p> </button>
         </div>
 
         <div class="switch-theme">
@@ -52,8 +52,8 @@
             </p>
             
             <div class="center">
-                <button id="btn" class="button"> <p>Request Beta</p> </button>
-                <button id="btn" class="button"> <p>How it works</p> </button>
+                <button id="btn4" class="button"> <p>Request Beta</p> </button>
+                <button id="btn5" class="button"> <p>How it works</p> </button>
             </div>
 
             <div class="introductionLocalli__content center">
@@ -172,7 +172,7 @@
                     from the tracking page in our beautiful dashboard.
                 </p>
                 <div class="block__btn">
-                    <button id="btn" class=" button "> <p>Request Beta</p> </button>
+                    <button id="btn6" class=" button "> <p>Request Beta</p> </button>
                 </div>
                 
 
@@ -184,15 +184,15 @@
 
         <section id="shoppingCard" class="shoppingCard">
             <div class="card">
-                <div class="card__summary">
-                    <svg class="card__icon center" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                <div class="accordion card__summary ">
+                    <svg id="telega" class="card__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 44.16 44.16" style="enable-background:new 0 0 44.16 44.16;" xml:space="preserve">
 <g>
-	<path style="fill:#010002;" d="M44.16,6.6H11.592L10.66,1.179H2.408C1.076,1.179,0,2.257,0,3.588v2.408h6.602l4.248,24.709
+	<path  d="M44.16,6.6H11.592L10.66,1.179H2.408C1.076,1.179,0,2.257,0,3.588v2.408h6.602l4.248,24.709
 		c0.094,0.544,0.617,0.985,1.17,0.985h28.527c1.332,0,2.41-1.077,2.41-2.411v-2.406H15.078l-0.587-3.414h22.042
 		c2.66,0,5.172-2.128,5.611-4.75L44.16,6.6z"/>
-	<circle style="fill:#010002;" cx="19.47" cy="38.817" r="4.165"/>
-	<path style="fill:#010002;" d="M29.762,38.816c0,2.299,1.863,4.164,4.162,4.164c2.301,0,4.168-1.865,4.168-4.164
+	<circle  cx="19.47" cy="38.817" r="4.165"/>
+	<path  d="M29.762,38.816c0,2.299,1.863,4.164,4.162,4.164c2.301,0,4.168-1.865,4.168-4.164
 		c0-2.299-1.867-4.166-4.168-4.166C31.625,34.65,29.762,36.518,29.762,38.816z"/>
 </g>
 <g>
@@ -229,7 +229,11 @@
 
                     <p>Show order summary ⯆</p>
 
-                    <p>$</p>
+                    <p>$54.57</p>
+                </div>
+
+                <div  class="panel hui">
+                    <p id="cardText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat atque dicta ullam amet, culpa quos obcaecati maxime delectus dolorum laudantium maiores voluptatem, perferendis, in dolores repellendus! Aliquam, libero voluptas!</p>
 
                 </div>
 
@@ -237,10 +241,12 @@
                     <p>Information > Shipping > Payment</p>
                 </div>
 
-                <div class="card__form">
-                    <form action="">
-                        <input type="text">
-                        <input type="text">
+                <div>
+                    <form action="" class="form">
+                        <label for="text" class="form__title">Contact</label>
+                        <input type="text" class="form__input" placeholder="jon@mail.com" id="text">
+                        <label for="text1" class="form__title">Ship to</label>
+                        <input type="text" class="form__input" id="text1" placeholder="152 ne 10th st.Miami FL 33030. Unitet States">
                     </form>
                 </div>
 
@@ -248,29 +254,29 @@
                     <p>Shipping method</p>
 
                     <div class="shipMethod">
-                        <label class="container"><p class="shipMethod__title">Standart</p>
-                            <input type="checkbox" checked="checked">
+                        <label class="container"><p class="shipMethod__title">Standart</p> <p>Free</p>
+                            <input type="radio" name="plan">
+                            <span class="checkmark"></span>
+                        </label>
+                          
+                          <label class="container"><p class="shipMethod__title">Expedited</p> <p>$8.90</p>
+                            <input type="radio" name="plan">
                             <span class="checkmark"></span>
                           </label>
                           
-                          <label class="container"><p class="shipMethod__title">Expedited</p>
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                          
-                          <label class="container"><p class="shipMethod__title">Same-Day Delivery with Localli </p> 
-                            <input type="checkbox">
+                          <label class="container"><p class="shipMethod__title">Same-Day Delivery with Localli</p> <p>$12.00</p>
+                            <input type="radio" name="plan">
                             <span class="checkmark"></span>
                           </label>
 
                     </div>
 
-                    <button class="card__button">Continue to payment</button>
+                    <button class="card__button"> <p>Continue to payment</p> </button>
                 </div>
             </div>
 
             <div class="shoppingCard__content">
-                <h2>Affordable delivery without the wait.</h2>
+                <h2 class="shoppingCard__title">Affordable delivery without the wait.</h2>
                 <p>For the same price as most standard shipping options, it’s time to upgrade your 
                     customer purchasing experience and increase your conversion rates, today!
                 </p>
@@ -340,7 +346,7 @@
                         as little as 2-hours. As we expand, so do you.
                     </p>
                     <div class="block__btn">
-                        <button id="btn" class="button"> <p>Request Beta</p> </button> 
+                        <button id="btn7" class="button"> <p>Request Beta</p> </button> 
                     </div>
                 </div>
             

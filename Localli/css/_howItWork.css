@@ -1,0 +1,30 @@
+.howItWork {
+  background: #FAFAFA;
+}
+.howItWork__title {
+  width: 50%;
+  margin: 1% 25% 10%;
+}
+
+.gallery {
+  width: 88%;
+  padding: 0% 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  font-size: 16px;
+  line-height: 24px;
+}
+.card__img {
+  margin: auto;
+}
+.card__title {
+  font-weight: bold;
+  margin: 5%;
+}
+.card__subtitle {
+  margin: 5%;
+}

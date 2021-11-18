@@ -1,22 +1,47 @@
 .black-theme{
     background-color: black;
-    fill: white;
     p, h1, h2, h6 {
         color: white;
-    }
-
-    button {
-        background-color: black;
-        color: black;
-        margin-left: 3%;
-        padding: 0% 5%;
-        border: 2px solid black;
-        box-sizing: border-box;
-        border-radius: 25px;
     }
 
     &__text {
         color: white;
     }
+
+    input {
+        background-color: black;
+        color: #E4E4E4;
+    }
+
+    .text-black {
+        color: black;
+    }
+
+    .card__button {
+        padding: 3% 0% 3% 0%;
+    }
 }
+
+.telega-black {
+    fill: white;
+}
+
+.button-black {
+    background-color: black;
+    padding: 0% 5%;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.button-black:hover {
+    background-color:white;
+    color: black;
+    margin-left: 3%;
+    padding: 0% 5%;
+
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
 

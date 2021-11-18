@@ -5,8 +5,8 @@ function switchTheme (){
     elem = document.querySelector('#telega');
     elem.classList.toggle('telega-black');
 
-    elem = document.querySelector('#cardText');
-    elem.classList.toggle('text-black');
+    // elem = document.querySelector('#cardText');
+    // elem.classList.toggle('text-black');
 
     elem = document.querySelector('#btn');
     elem.classList.toggle('button-black');
@@ -29,5 +29,9 @@ function switchTheme (){
     elem = document.querySelector('#btn7');
     elem.classList.toggle('button-black');
 
+    elem = document.querySelector('#summary');
+    elem.classList.toggle('accordion-black');
 
+    elem = document.querySelector('#dropDown');
+    elem.classList.toggle('dropDown-black');
 }

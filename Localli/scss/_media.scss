@@ -1,0 +1,162 @@
+
+@media screen and (max-width: 1024px) {
+    .introductionLocalli__title, .delivery__title, .hovItWork, .block__title, .shoppingCard__title, .map__title, .faq__title{
+        font-size: 46px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0%;
+    }
+    .card {
+        width: 100%;
+        margin: 0%;
+
+    // .header {
+    //     &__button {
+    //         display: block;
+    //     }
+    // }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .header__logo {
+        width: 40%;
+    }
+    .header__button {
+        width: 40%;
+    }
+
+    .introductionLocalli__content {
+        flex-direction: column;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0%;
+    }
+    .card {
+        width: 100%;
+        margin: 0%;
+    }
+
+
+    .footer__content {
+        margin: 0%;
+    }
+
+    .header {
+        &__button {
+            display: none;
+        }
+    }
+    .opnBtn {
+        display: block;
+        margin-top: 100%;
+        margin-left: 900%;
+    }
+
+
+    .sidenav {
+        display: flex;
+        padding-top: 15px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+      
+}
+
+@media screen and (max-width: 594px) {
+    .opnBtn {
+        display: block;
+        margin-top: 100%;
+        margin-left: 800%;
+    }
+    .switch-theme {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .introductionLocalli__title, .delivery__title, .hovItWork, .block__title, .shoppingCard__title, .map__title, .faq__title{
+        font-size: 26px;
+        line-height: 56px;
+    }
+
+
+
+    .block {
+        display: flex;
+        flex-direction: column;
+
+        &__content {
+            width: 100%;
+        }
+
+        &__subtitle {
+            margin-bottom: 5%;
+        }
+
+        &__img {
+            width: 100%;
+            margin-top: 5%;
+            padding: 0%;
+        }
+
+    }
+
+    .shoppingCard {
+        flex-direction: column;
+
+        &__content {
+            width: 100%;
+        }
+    }
+
+    .faq {
+        width: 90%;
+        margin: 0% 5%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            width: 100%;
+        }
+    }
+
+    .opnBtn {
+        display: block;
+        margin-top: 100%;
+        margin-left: 700%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .opnBtn {
+        display: block;
+        margin-top: 100%;
+        margin-left: 600%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .opnBtn {
+        display: block;
+        margin-top: 100%;
+        margin-left: 500%;
+    }
+}

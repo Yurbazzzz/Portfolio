@@ -1,5 +1,8 @@
 .howItWork {
+    width: 90%;
     background: #FAFAFA;
+    margin: 0% 5%;
+
     &__title {
         width: 50%;
         margin: 1% 25% 10%;
@@ -7,14 +10,14 @@
 }
 
 .gallery {
-    width: 88%;
-    padding: 0% 6%;
+    margin: 0% 5%;
     display: flex;
 }
 
 .card {
     font-size: 16px;
     line-height: 24px;
+    margin: 0%;
     
     &__img {
         margin: auto;

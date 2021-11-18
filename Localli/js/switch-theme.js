@@ -34,4 +34,7 @@ function switchTheme (){
 
     elem = document.querySelector('#dropDown');
     elem.classList.toggle('dropDown-black');
+
+    elem = document.querySelector('#opnBtn');
+    elem.classList.toggle('opnBtn-black');
 }

@@ -22,6 +22,16 @@
             <h1>localli</h1>
         </div>
 
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <button id="btn" class="button"> <span>How it works</span> </button>
+            <button id="btn2" class="button"> <span>Pricing</span> </button>
+            <button id="btn3" class="button"> <span>Request Beta</span> </button>
+            </div>
+        <div id="menu">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="opnBtn" class="opnBtn">&#9776;</span>
+        </div>
+
         <div class="header__button">
             <button id="btn" class="button"> <span>How it works</span> </button>
             <button id="btn2" class="button"> <span>Pricing</span> </button>
@@ -393,6 +403,18 @@
 
     <script src="./js/switch-theme.js"></script>
     <script src="./js/acordeon.js"></script>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("menu").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("menu").style.marginLeft= "0";
+        }
+    </script>
 
 </body>
 </html>

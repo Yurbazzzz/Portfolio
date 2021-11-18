@@ -288,8 +288,8 @@ h2 {
   margin-right: 1%;
 }
 .card__icon {
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: 10%;
 }
 .card__summary {
   width: 100%;
@@ -416,15 +416,16 @@ h2 {
   background: white;
 }
 
-.hui {
+.dropDown {
   height: 30%;
-  border: 5px solid #E4E4E4;
+  border: 2px solid #E4E4E4;
   background-color: white;
+  border-radius: 10px;
+  margin-top: 1%;
   color: #444;
   cursor: pointer;
   padding: 1%;
   text-align: left;
-  border-bottom: 2px solid black;
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
